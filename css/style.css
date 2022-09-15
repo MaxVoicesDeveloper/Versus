@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Lato", sans-serif;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	background: #222222;
+}
+
+.container{
+	width: 100%;
+	height: 80%;
+}
+
+.main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: url("../img/back.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+/*Меню*/
+.header{
+	position: absolute;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 35px 0px 35px 0px;
+}
+
+.header span{
+	color: white;
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.header ul{
+	display: flex;
+	width: 20%;
+	justify-content: space-between;
+}
+
+.header ul li{
+	list-style-type: none;
+}
+
+.header ul li a{
+	text-decoration: none;
+	color: #999999;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+#active{
+	color: #00D6B4;
+}
+
+/*Нотация*/
+
+.notation{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.notation span{
+	font-size: 48px;
+	color: white;
+	text-align: center;
+	margin: 15px;
+	font-weight: bolder;
+}
+
+.notation button{
+	color: #00D6B4;
+	border: 2px solid #00D6B4;
+	border-radius: 7px;
+	background: none;
+	padding: 10px 25px 10px 25px;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+
+
+.work{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.work span{
+	color: white;
+	font-size: 25px;
+	margin-bottom: 20px;
+	font-weight: bolder;
+}
+
+.photo{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.column{
+	display: flex;
+}
+
+.column img{
+	width: 300px;
+	height: 225px;
+	margin: 10px;
+}
+
+.footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	width: 100%;
+	height: 50%;
+}
+
+.footer span{
+	color: #C2C2C2;
+	font-size: 18px;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.footer p{
+	color: #C2C2C2;
+	font-size: 12px;
+	margin-bottom: 20px;
+
+}
